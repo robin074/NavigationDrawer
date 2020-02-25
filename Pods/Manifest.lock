@@ -1,0 +1,33 @@
+PODS:
+  - MaterialComponents/Elevation (103.1.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/NavigationDrawer (103.1.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Palettes (103.1.0)
+  - MaterialComponents/private/Application (103.1.0)
+  - MaterialComponents/private/Color (103.1.0)
+  - MaterialComponents/private/Math (103.1.0)
+  - MaterialComponents/private/UIMetrics (103.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/ShadowElevations (103.1.0)
+  - MaterialComponents/ShadowLayer (103.1.0):
+    - MaterialComponents/ShadowElevations
+
+DEPENDENCIES:
+  - MaterialComponents/NavigationDrawer
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+
+SPEC CHECKSUMS:
+  MaterialComponents: 0312a643d1aed5e5f10cba4be06a6aa62bd07c14
+
+PODFILE CHECKSUM: 39cbeb5ebafd2290f94a5c3eada884d3d4082099
+
+COCOAPODS: 1.8.4
